@@ -20,7 +20,7 @@ function Editor({ language, title, value, onChange }) {
       <div className="editor-title">
         {title}
         <button
-        className="expand-btn"
+          className="expand-btn"
           onClick={() => {
             setOpen((prevOpen) => !prevOpen);
           }}
